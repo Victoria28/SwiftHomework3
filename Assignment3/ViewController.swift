@@ -172,7 +172,19 @@ class ViewController: UIViewController {
         return amountOfMonths
     }
     
-    
+    func DisplayNumbersFrom0ToXAndInReverseOrder(numberx: Int){
+        let number = numberx
+        
+        print("Original order:")
+        for i in 0..<number + 1{
+            print(i)
+        }
+        print("Reverse order:")
+        for i in 0..<number + 1{
+            print(number-i)
+            
+        }
+    }
     
 
 }
