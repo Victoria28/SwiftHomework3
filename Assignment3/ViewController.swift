@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-         print("Method 1")
+        print("Method 1")
         
      TheLargestOutOfTwoNumbers(number1: 6, number2: 20 )
         
@@ -172,19 +172,7 @@ class ViewController: UIViewController {
         return amountOfMonths
     }
     
-    func DisplayNumbersFrom0ToXAndInReverseOrder(numberx: Int){
-        let number = numberx
-        
-        print("Original order:")
-        for i in 0..<number + 1{
-            print(i)
-        }
-        print("Reverse order:")
-        for i in 0..<number + 1{
-            print(number-i)
-            
-        }
-    }
+    
     
 
 }
